@@ -162,4 +162,4 @@ Contoh di atas adalah file css **EKSTERNAL** nya!
 ### 4). Pada sebuah elemen HTML terdapat **ID** dan **CLASS** , apabila masing-masing selector tersebut terdapat deklarasi CSS , maka deklarasi manakah yang ditampilkan pada browser? berikan penjelasan dan contoh nya!
 **JAWABAN**
 ![jawaban_no4](img/jawaban4.png)
- antara **ID** dan **CLASS** yang terpanggil dibrowser adalah **ID** yang memiliki property {color:blueviolet) dan {text-align:center} karena **ID** itu unik dibanding **CLASS** yang banyak dapat digunakan sedangkan **ID** hanya tertentu dan bersifat unik.
+ antara **ID** dan **CLASS** yang terpanggil dibrowser adalah **ID** yang memiliki property {color:chocolate) dan {text-align:left} karena **ID** itu unik dibanding **CLASS** yang banyak dapat digunakan sedangkan **ID** hanya tertentu dan bersifat unik.
