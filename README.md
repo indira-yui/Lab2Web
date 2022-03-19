@@ -156,5 +156,10 @@ Jadi jika hanya mendeklarasikan elemen **{h1}** saja brarti semua elemen **{h1}*
 **Jawaban**
 ![jawaban_no3](img/no3.png)
 Jika di deklarasikan secara bersama,antara **INTERNAL** **INLINE** dan **EKSTERNAL** yang terpanggil di browser adalah CSS **INLINE** karena **INLINE** memiliki prioritas terkuat dibanding CSS **INTERNAL** dan **EKSTERNAL** foto di atas adalah contoh pendeklarasian secara bersama antara **INTERNAL** **INLINE** dan **EKSTERNAL** untuk css **INLINE** memiliki property {color:rgb}  dan juga property {text-align;center} sedangkan CSS **INTERNAL** memiliki property {color: chocolate} dan {text-align:left} dan **EKSTERNAL** adalah {color:tomato} dan {text-align:justify} namun yang terpanggil adalah css **INLINE** dengan Property {color:rgb} dan {text-align:center}.
-![jawaban_no3](img/jawaban3.png).
-contoh di atas adalah file css **EKSTERNAL** nya!
+![jawaban_no3](img/jawaban3.png)
+Contoh di atas adalah file css **EKSTERNAL** nya!
+
+### 4). Pada sebuah elemen HTML terdapat **ID** dan **CLASS** , apabila masing-masing selector tersebut terdapat deklarasi CSS , maka deklarasi manakah yang ditampilkan pada browser? berikan penjelasan dan contoh nya!
+**JAWABAN**
+![jawaban_no4](img/jawaban4.png)
+ antara **ID** dan **CLASS** yang terpanggil dibrowser adalah **ID** yang memiliki property {color:blueviolet) dan {text-align:center} karena **ID** itu unik dibanding **CLASS** yang banyak dapat digunakan sedangkan **ID** hanya tertentu dan bersifat unik.
