@@ -68,3 +68,14 @@ CSS Internal adalah CSS yang filenya terdapat didalam HTML dengan deklarasi **st
         }
     </style>
 ```
+
+## 3). Menambahkan Inline
+### Output
+![menambahkan_Inline_CSS](img/css_inline.png)
+ CSS ***Inline*** adalah CSS yang pendeklarasiannya ada pada tag HTML nya sendiri dengan menggunakan **style** seperti contoh di atas, saya melakukan mendeklarasikan CSS ***Inline*** pasar pada tag (p) dengan properti (text-align) dan juga (color) CSS ***Inline*** sendiri sangat spesifik dan hanya merubah pada tag yang hanya diberi **style** CC ***Internal*** sangat kuat, maksudnya yaitu jika kita melakukan code yang sama dengan deklarasi yang berbeda yang terpanggil hanya ***Inline*** karena ***Inline*** memiliki prioritas tinggi dibanding **internal** dan **eksternal**.
+
+ ### Contoh coding
+ ```html
+ <!-- Tag (p) menggunakan CSS Inline -->
+        <p style="text-align: center; color: royalblue;">Kami sedang belajar HTML dan CSS Dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+ ```
