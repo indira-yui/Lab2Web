@@ -145,3 +145,16 @@ Selain itu ada juga selector **class** sama seperti **ID** **Class** juga dapat 
 ![jawaban_no.1](img/jawaban1.png)
 
 ----------------------------------------------------------------------------------------------------------
+
+### 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+**Jawaban**
+Jadi jika hanya mendeklarasikan elemen **{h1}** saja brarti semua elemen **{h1}** akan berubah oleh CSS, sedangkan mendeklarasikan **(#intro h1)** hanya elemen h1 dengan deklarasi **(#intro h1)** saja yang berubah karena **ID** itu unik.
+
+-----------------------------------------------------------------------------------------------------------------
+
+### 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+**Jawaban**
+![jawaban_no3](img/no3.png)
+Jika di deklarasikan secara bersama,antara **INTERNAL** **INLINE** dan **EKSTERNAL** yang terpanggil di browser adalah CSS **INLINE** karena **INLINE** memiliki prioritas terkuat dibanding CSS **INTERNAL** dan **EKSTERNAL** foto di atas adalah contoh pendeklarasian secara bersama antara **INTERNAL** **INLINE** dan **EKSTERNAL** untuk css **INLINE** memiliki property {color:rgb}  dan juga property {text-align;center} sedangkan CSS **INTERNAL** memiliki property {color: chocolate} dan {text-align:left} dan **EKSTERNAL** adalah {color:tomato} dan {text-align:justify} namun yang terpanggil adalah css **INLINE** dengan Property {color:rgb} dan {text-align:center}.
+![jawaban_no3](img/jawaban3.png).
+contoh di atas adalah file css **EKSTERNAL** nya!
