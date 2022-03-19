@@ -11,7 +11,7 @@ Untuk mata kuliah kali ini membahas tentang membuat website dengan HTML dan CSS 
 ## 1). Langkah pertama buat dokumen dasar HTML
 ### Output 
 ![menambahkan_dokumen_dasar_html](img/dokumen_html.png)
-Disini terdapat sebuah dokumen dasar HTML namun belum beserta CSS atau hanya masih file HTML dasar nya saja, belum diberi CSS ***inline*** **internal** ataupun **eksternal**
+Disini terdapat sebuah dokumen dasar HTML namun belum beserta CSS atau hanya masih file HTML dasarnya saja, belum diberi CSS ***inline*** **internal** ataupun **eksternal**
 
 ### Contoh coding
 ```html
@@ -39,4 +39,32 @@ Disini terdapat sebuah dokumen dasar HTML namun belum beserta CSS atau hanya mas
     </div>
 </body>
 </html>
+```
+
+## 2). Mendeklarasikan CSS Internal
+### Output
+![menambahkan_CSS_Internal](img/css_internal.png)
+CSS Internal adalah CSS yang filenya terdapat didalam HTML dengan deklarasi **style**, gambar diatas adalah hanya CSS Internal saja belum terdapat inline dan eksternal.
+
+### Contoh coding
+```css
+<!-- Mendeklarasikan CSS Internal -->
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            min-height: 90px;
+            border-bottom: 1px solid black;
+        }
+        h1{
+            font-size: 25px;
+            color: blue;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 i{
+            color: aqua;
+        }
+    </style>
 ```
