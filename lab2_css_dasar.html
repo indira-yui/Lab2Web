@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Dasar</title>
+        <!-- Menempatkan CSS Eksternal -->
+        <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+        <!-- Mendeklarasikan CSS Internal -->
+        <style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            header{
+                min-height: 90px;
+                border-bottom: 1px solid black;
+            }
+            h1{
+                font-size: 25px;
+                color: rgb(0, 247, 255);
+                text-align: center;
+                padding: 20px 10px;
+            }
+            h1 i{
+                color: rgb(255, 0, 212);
+            }
+        </style>
+
+</head>
+<body>
+    <header>
+        <h1>CSS internal dan <i>inline CSS</i></h1>
+    </header>
+    <nav>
+        <a href="lab2_css_dasar.html">CSS Dasar</a>
+        <a href="lab2_css_eksternal.html">CSS Eksternal</a>
+        <a href="lab1_tag_dasar.html">HTML Dasar</a>
+    </nav>
+    <!-- CSS ID Selector -->
+    <div id="main">
+        <h1>Hello World</h1>
+         <!-- Tag (p) menggunakan CSS Inline -->
+        <p style="text-align: center; color: rgb(46, 38, 29);">Kami sedang belajar HTML dan CSS Dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+    <!-- CSS Class Selector -->
+    <a class="button btn-primary"href="#main">Informasi Selengkapnya.</a>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+nav{
+    background: rgb(36, 206, 163);
+    color: rgb(53, 94, 94);
+    padding: 15px;
+ }
+ nav a{
+    color: azure;
+    text-decoration: none;
+    padding: 15px 20px;
+ }
+ nav .active,
+ nav a:hover{
+    background: black;
+    border-radius: 4px;
+ }
+ /* ID Selector */
+#main{
+    background: azure;
+    border: 1px solid black;
+    min-height: 100px;
+    padding: 10px;
+}
+#main h1{
+    text-align: left;
+    border: 0px;
+    color: azure;
+}
+/* Class Selector */
+.button{
+    padding: 15px 20px;
+    background: gray;
+    color: azure;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn-primary{
+    background: gray;
+}
