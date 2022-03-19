@@ -79,3 +79,27 @@ CSS Internal adalah CSS yang filenya terdapat didalam HTML dengan deklarasi **st
  <!-- Tag (p) menggunakan CSS Inline -->
         <p style="text-align: center; color: royalblue;">Kami sedang belajar HTML dan CSS Dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
  ```
+
+ ## 4). Membuat CSS Eksternal
+ ### Output
+ ![menambahkan_CSS_Eksternal](img/eksternal_css.png)
+ CSS **Eksternal** adalah CSS yang  file terpisah dengan HTML melalui link penempatannya, CSS **Eksternal** sangat direkomendasikan oleh para programmer website developer dalam membuat gaya pada CSS, karena 1 file CSS **Eksternal** bisa untuk banyak file HTML, karena itu direkomendasikan banyak programmer kelebihan dari CSS **Eksternal** di (a:hover) saya sedikit menambahkan (border-radius: 4px;) agar terlihat menarik.
+
+ ### Contoh coding
+ ```css
+ nav{
+    background: gray;
+    color: azure;
+    padding: 15px;
+}
+nav a{
+    color: azure;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav .active,
+nav a:hover{
+    background: black;
+    border-radius: 4px;
+}
+ ```
