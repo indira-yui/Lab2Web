@@ -8,7 +8,7 @@
 ### Pertemuan 3
 Untuk mata kuliah kali ini membahas tentang membuat website dengan HTML dan CSS Dasar seperti CSS ***inline***, ***internal***,dan juga ***eksternal*** serta selector **ID** dan juga **Class**
 
-## 1). Langkah pertama buat dokumen dasar HTML
+## 1). Membuat Dokumen Dasar HTML
 ### Output 
 ![menambahkan_dokumen_dasar_html](img/dokumen_html.png)
 Disini terdapat sebuah dokumen dasar HTML namun belum beserta CSS atau hanya masih file HTML dasarnya saja, belum diberi CSS ***inline*** **internal** ataupun **eksternal**
@@ -138,3 +138,10 @@ Selain itu ada juga selector **class** sama seperti **ID** **Class** juga dapat 
     background: gray;
 }
 ```
+
+## Pertanyaan dan Jawaban
+### 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+**Jawaban**
+![jawaban_no.1](img/jawaban1.png)
+
+----------------------------------------------------------------------------------------------------------
