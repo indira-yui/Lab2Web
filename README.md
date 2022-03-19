@@ -103,3 +103,38 @@ nav a:hover{
     border-radius: 4px;
 }
  ```
+
+ ## 5). Menambahkan CSS Selector
+### Output
+![menambahkan_CSS_Selector](img/css_selector.png)
+CSS Selector adalah sebuah pendeklarasian untuk menambahkan gaya pada elemen HTML seperti selector **(p)** **(h1)** dll. Ada juga selector ID yang pendeklarasiannya dalam file CSS yaitu **(#)** kemudian definisikan properti CSS dalam kurung seperti contoh **#nav** itu adalah contoh pendeklarasiannya yang artinya **nav** akan diberi tampilan CSS.
+Selain itu ada juga selector **class** sama seperti **ID** **Class** juga dapat sebagai mana yang akan diberi gaya pada CSS namun yang membedakannya yaitu pendeklarasiannya jika **ID** itu **(#)** maka **class** **(.)** atau titik seperti contoh di file CSSnya **.main** yang diberi class akan di ubah.
+
+### Contoh coding
+```css
+/* ID Selector */
+#main{
+    background: azure;
+    border: 1px solid black;
+    min-height: 100px;
+    padding: 10px;
+}
+#main h1{
+    text-align: left;
+    border: 0px;
+    color: azure;
+}
+/* Class Selector */
+.button{
+    padding: 15px 20px;
+    background: gray;
+    color: azure;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn-primary{
+    background: gray;
+}
+```
